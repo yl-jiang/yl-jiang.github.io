@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客搭建, Yulin&#39;s Blog">
+    <meta name="keywords" content="C++ - 操纵符, Yulin&#39;s Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建 | Yulin&#39;s Blog</title>
+    <title>C++ - 操纵符 | Yulin&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -307,12 +307,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('../article_imgs/hexo_logo.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('../article_imgs/c++_logo.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建</h1>
+                    <h1 class="description center-align post-title">C++ - 操纵符</h1>
                 </div>
             </div>
         </div>
@@ -334,8 +334,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
                             </a>
                         
                     </div>
@@ -346,8 +346,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Markdown/" class="post-category">
-                                Markdown
+                            <a href="/categories/C/" class="post-category">
+                                C++
                             </a>
                         
                     </div>
@@ -359,7 +359,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-11
+                    2020-03-27
                 </div>
                 
 
@@ -376,76 +376,10 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
-<li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a></li>
-<li><a href="nodejs.org">nodejs</a></li>
-</ul>
-<hr>
-<h2 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h2><ul>
-<li>node -v(nodejs)</li>
-<li>git –version(git)</li>
-</ul>
-<hr>
-<h2 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h2><ul>
-<li>git –global user.email youremailaddress</li>
-<li>git –global user.name yourname</li>
-</ul>
-<hr>
-<h2 id="安装cnpm"><a href="#安装cnpm" class="headerlink" title="安装cnpm"></a>安装cnpm</h2><ul>
-<li>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org(需要一些时间)" target="_blank" rel="noopener">https://registry.npm.taobao.org(需要一些时间)</a></li>
-<li>cnpm -v(检查cnpm是否安装成功)</li>
-</ul>
-<hr>
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><ul>
-<li>cnpm install -g hexo-cli</li>
-<li>hexo -v(检查hexo是否安装成功)</li>
-</ul>
-<hr>
-<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><ul>
-<li>创建一个空文件夹：”Blog“(一定要是空文件夹，不能包含任何文件以及隐藏文件)</li>
-<li>cd到Blog</li>
-<li>hexo init(初始化博客)</li>
-<li>hexo s(本地启动hexo博客，浏览器输入:<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>)</li>
-</ul>
-<hr>
-<h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><ul>
-<li>hexo n “your blog”(创建markdown博客文章)<ul>
-<li>新创建的markdown文章放在：xxx/Blog/source/_posts，可使用文本编辑器完善文章内容</li>
-</ul>
-</li>
-<li>cd xxx/Blog</li>
-<li>hexo clean(清理)</li>
-<li>hexo g(生成新创建的文章)</li>
-<li>hexo s(重新启动hexo)</li>
-</ul>
-<hr>
-<h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><ul>
-<li>在GitHub上创建一个新的仓库，仓库名必须为your-github-name.github.io</li>
-<li>cd xxx/Blog</li>
-<li>cnpm install –save hexo-deployer-git</li>
-<li>编辑”xxx/Blog”目录下的”_config.yml”文件，修改”# Deploymean”配置项为<pre class=" language-bash"><code class="language-bash">deploy:
- type: <span class="token function">git</span>
- repo: https://github.com/your-github-name/your-github-name.github.io.git
- bransh: master</code></pre>
-</li>
-<li>hexo clean</li>
-<li>hexo d(部署命令)</li>
-<li>浏览器地址栏输入”<a href="https://your-github-name.github.io&quot;，即可看到浏览你的博客" target="_blank" rel="noopener">https://your-github-name.github.io"，即可看到浏览你的博客</a></li>
-</ul>
-<hr>
-<h2 id="更换主题-以github上的主题为例"><a href="#更换主题-以github上的主题为例" class="headerlink" title="更换主题(以github上的主题为例)"></a>更换主题(以github上的主题为例)</h2><ul>
-<li>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia(下载主题文件到本地)</li>
-<li>编辑”xxx/Blog”目录下的”_config.yml”文件，修改”# Extension”配置项为<pre class=" language-bash"><code class="language-bash">theme: yilia</code></pre>
-</li>
-<li>hexo clean(清理)</li>
-<li>hexo g(生成)</li>
-<li>hexo s(启动)</li>
-<li>hexo d(推送到GitHub)</li>
-</ul>
-<hr>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul>
-<li><a href="https://www.bilibili.com/video/av44544186/?spm_id_from=333.788.videocard.0" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186/?spm_id_from=333.788.videocard.0</a></li>
-</ul>
+                <h2 id="endl"><a href="#endl" class="headerlink" title="endl"></a>endl</h2><p>endl会插入一个换行符，并清除缓冲区的内容</p>
+<h2 id="hex"><a href="#hex" class="headerlink" title="hex"></a>hex</h2><p>以16进制显示整数</p>
+<h2 id="oct"><a href="#oct" class="headerlink" title="oct"></a>oct</h2><p>以8进制显示整数</p>
+<h2 id="setprecision-n"><a href="#setprecision-n" class="headerlink" title="setprecision(n)"></a>setprecision(n)</h2><p>设定浮点数的显示精度为n</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -489,7 +423,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://yl-jiang.github.io/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/">https://yl-jiang.github.io/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/</a>
+                    <a href="https://yl-jiang.github.io/2020/03/27/cao-zong-fu/">https://yl-jiang.github.io/2020/03/27/cao-zong-fu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -527,8 +461,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
                                 </a>
                             
                         </div>
@@ -696,7 +630,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Wed Mar 11 2020 20:31:32 GMT+0800',
+    id: 'Fri Mar 27 2020 22:38:45 GMT+0800',
     owner: '',
     repo: '',
     oauth: {
@@ -720,9 +654,9 @@ gitment.render('gitment-content');
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'https://yl-jiang.github.io/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/';
-        this.page.identifier = '/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/';
-        this.page.title = 'Hexo博客搭建';
+        this.page.url = 'https://yl-jiang.github.io/2020/03/27/cao-zong-fu/';
+        this.page.identifier = '/2020/03/27/cao-zong-fu/';
+        this.page.title = 'C++ - 操纵符';
     };
     let disqus_shortname = '';
 
@@ -749,12 +683,12 @@ gitment.render('gitment-content');
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/27/array/">
+                <a href="/2020/03/27/han-shu/">
                     <div class="card-image">
                         
-                        <img src="../article_imgs/c++_logo.png" class="responsive-img" alt="C++ - array">
+                        <img src="../article_imgs/c++_logo.png" class="responsive-img" alt="C++ - function">
                         
-                        <span class="card-title">C++ - array</span>
+                        <span class="card-title">C++ - function</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -794,45 +728,44 @@ gitment.render('gitment-content');
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/">
+                <a href="/2020/03/27/vector/">
                     <div class="card-image">
                         
-                        <img src="../article_imgs/hexo_logo.png" class="responsive-img" alt="Hexo博客搭建">
+                        <img src="../article_imgs/c++_logo.png" class="responsive-img" alt="C++ - Vector">
                         
-                        <span class="card-title">Hexo博客搭建</span>
+                        <span class="card-title">C++ - Vector</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用Hexo搭建个人博客简要过程记录。
+                            C++学习
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-27
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
+                            <a href="/categories/C/" class="post-category">
+                                    C++
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
                     </a>
                     
                 </div>

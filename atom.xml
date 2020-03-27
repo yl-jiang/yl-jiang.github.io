@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yl-jiang.github.io/"/>
-  <updated>2020-03-11T12:27:40.705Z</updated>
+  <updated>2020-03-27T14:56:15.021Z</updated>
   <id>https://yl-jiang.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://yl-jiang.github.io/2020/03/11/hello-world/"/>
-    <id>https://yl-jiang.github.io/2020/03/11/hello-world/</id>
-    <published>2020-03-11T12:27:40.705Z</published>
-    <updated>2020-03-11T12:27:40.705Z</updated>
+    <title>C++ - Object-Based Programming</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/ji-yu-dui-xiang-de-bian-cheng-feng-ge/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/ji-yu-dui-xiang-de-bian-cheng-feng-ge/</id>
+    <published>2020-03-27T14:44:05.617Z</published>
+    <updated>2020-03-27T14:56:15.021Z</updated>
     
     <summary type="html">
     
@@ -29,22 +29,274 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;h1 id=&quot;Essential-C-Chapter3-Chapter-4-Object-Based-Programming&quot;&gt;&lt;a href=&quot;#Essential-C-Chapter3-Chapter-4-Object-Based-Programming&quot;
         
       
     
     </summary>
     
     
+      <category term="C++, Essential C++" scheme="https://yl-jiang.github.io/categories/C-Essential-C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+      <category term="Essential C++" scheme="https://yl-jiang.github.io/tags/Essential-C/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo个人博客搭建过程</title>
+    <title>C++ - Generic Programming</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/fan-xing-bian-cheng-feng-ge/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/fan-xing-bian-cheng-feng-ge/</id>
+    <published>2020-03-27T14:43:22.639Z</published>
+    <updated>2020-03-27T15:00:36.067Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Essential-C-Chapter3-Generic-Programming&quot;&gt;&lt;a href=&quot;#Essential-C-Chapter3-Generic-Programming&quot; class=&quot;headerlink&quot; title=&quot;Essential
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++, Essential C++" scheme="https://yl-jiang.github.io/categories/C-Essential-C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+      <category term="Essential C++" scheme="https://yl-jiang.github.io/tags/Essential-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - ++/--</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/zi-jian-cao-zuo-fu/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/zi-jian-cao-zuo-fu/</id>
+    <published>2020-03-27T14:40:14.753Z</published>
+    <updated>2020-03-27T15:04:10.846Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;–前置和后置的区别&quot;&gt;&lt;a href=&quot;#–前置和后置的区别&quot; class=&quot;headerlink&quot; title=&quot;++/–前置和后置的区别&quot;&gt;&lt;/a&gt;++/–前置和后置的区别&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - pointer</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/zhi-zhen/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/zhi-zhen/</id>
+    <published>2020-03-27T14:40:00.275Z</published>
+    <updated>2020-03-27T15:03:56.030Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一个未指向任何对象的指针，其地址值为0，称为null指针。&quot;&gt;&lt;a href=&quot;#一个未指向任何对象的指针，其地址值为0，称为null指针。&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - ofstream</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/wen-jian-du-xie/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/wen-jian-du-xie/</id>
+    <published>2020-03-27T14:39:45.490Z</published>
+    <updated>2020-03-27T15:03:18.092Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;头文件&quot;&gt;&lt;a href=&quot;#头文件&quot; class=&quot;headerlink&quot; title=&quot;头文件&quot;&gt;&lt;/a&gt;头文件&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - random</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/sui-ji-shu-sheng-cheng/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/sui-ji-shu-sheng-cheng/</id>
+    <published>2020-03-27T14:39:28.902Z</published>
+    <updated>2020-03-27T15:02:38.209Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;头文件&quot;&gt;&lt;a href=&quot;#头文件&quot; class=&quot;headerlink&quot; title=&quot;头文件&quot;&gt;&lt;/a&gt;头文件&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - function</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/han-shu/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/han-shu/</id>
+    <published>2020-03-27T14:39:06.436Z</published>
+    <updated>2020-03-27T15:02:06.306Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;函数定义&quot;&gt;&lt;a href=&quot;#函数定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - 操纵符</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/cao-zong-fu/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/cao-zong-fu/</id>
+    <published>2020-03-27T14:38:45.966Z</published>
+    <updated>2020-03-27T14:56:59.872Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;endl&quot;&gt;&lt;a href=&quot;#endl&quot; class=&quot;headerlink&quot; title=&quot;endl&quot;&gt;&lt;/a&gt;endl&lt;/h2&gt;&lt;p&gt;endl会插入一个换行符，并清除缓冲区的内容&lt;/p&gt;
+&lt;h2 id=&quot;hex&quot;&gt;&lt;a href=&quot;#hex&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - Vector</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/vector/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/vector/</id>
+    <published>2020-03-27T14:38:15.433Z</published>
+    <updated>2020-03-27T14:56:43.039Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;vector初始化&quot;&gt;&lt;a href=&quot;#vector初始化&quot; class=&quot;headerlink&quot; title=&quot;vector初始化&quot;&gt;&lt;/a&gt;vector初始化&lt;/h2&gt;&lt;h3 id=&quot;方法一：每个元素单独初始化&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ - array</title>
+    <link href="https://yl-jiang.github.io/2020/03/27/array/"/>
+    <id>https://yl-jiang.github.io/2020/03/27/array/</id>
+    <published>2020-03-27T14:37:18.390Z</published>
+    <updated>2020-03-27T14:53:05.675Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;arry初始化&quot;&gt;&lt;a href=&quot;#arry初始化&quot; class=&quot;headerlink&quot; title=&quot;arry初始化&quot;&gt;&lt;/a&gt;arry初始化&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/categories/C/"/>
+    
+    
+      <category term="C++" scheme="https://yl-jiang.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客搭建</title>
     <link href="https://yl-jiang.github.io/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/"/>
     <id>https://yl-jiang.github.io/2020/03/11/hexo-ge-ren-bo-ke-da-jian-guo-cheng-md/</id>
-    <published>2020-03-11T06:41:42.000Z</published>
-    <updated>2020-03-12T14:20:49.239Z</updated>
+    <published>2020-03-11T12:31:32.823Z</published>
+    <updated>2020-03-27T14:31:24.498Z</updated>
     
     <summary type="html">
     
@@ -60,6 +312,10 @@
     </summary>
     
     
+      <category term="Markdown" scheme="https://yl-jiang.github.io/categories/Markdown/"/>
+    
+    
+      <category term="Hexo" scheme="https://yl-jiang.github.io/tags/Hexo/"/>
     
   </entry>
   
